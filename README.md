@@ -4,4 +4,4 @@
 <h3>See demo here:</h3>
 <p>https://andreimihai-designam.github.io/Todo-List/</p></br>
 
-<img src="demo.jpg"/>
+<img src="demo.png"/>
