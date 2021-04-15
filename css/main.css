@@ -6,10 +6,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)
-    no-repeat;
+  background: linear-gradient(-45deg, #23a6d5, #23d5ab) no-repeat;
+  background-attachment: fixed;
   color: white;
-  background-size: 1920px 1080px;
   animation: gradient 15s ease infinite;
 }
 
@@ -88,8 +87,7 @@ input[type="text"]::placeholder {
   }
 
   .btn:hover {
-    background: transparent;
-    transform: scale(1.3);
+    background: rgba(0, 0, 0, 0.16);
     color: #f0f0f0;
     cursor: pointer;
   }
@@ -120,8 +118,7 @@ input[type="text"]::placeholder {
   }
 
   .todo-button:hover {
-    background: none;
-    transform: scale(1.3);
+    background: rgba(0, 0, 0, 0.16);
     cursor: pointer;
   }
 
